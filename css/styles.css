@@ -74,7 +74,8 @@ article:hover> a .product-item-head .product-icons {
 }
 .product-item-head {
     position: relative;
-    padding: 20px 0;
+    margin-bottom: 10px;
+    padding: 25px 0;
     background: rgba(251, 251, 251, 1);
 }
 .product-sale {
