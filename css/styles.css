@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Cera Pro';
+}
+body {
+    font-family: 'Cera Pro';
+    padding: 50px 0;
+}
+.container {
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+}
+.product-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.catalog-menu {
+    display: flex;
+    gap: 20px;
+}
+.catalog-link {
+    min-width: 90px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(61, 61, 61, 1);
+}
+.catalog-link:hover {
+    font-weight: 700;
+    color: rgba(70, 163, 88, 1);
+    text-decoration: underline 2px rgba(70, 163, 88, 1);
+    text-underline-offset: 7px;
+}
+.catalog-link:first-child {
+    text-align: left;
+}
+.catalog-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.catalog-option p {
+    font-size: 15px;
+    line-height: 20px;
+}
+select {
+    border: none;
+    font-size: 15px;
+}
+article {
+    border-top: 1px solid transparent;
+}
+
+article:hover {
+    border-top: 1px solid rgba(70, 163, 88, 1);
+}
+
+article:hover> a .product-item-head .product-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+.products a {
+    text-decoration: none;
+}
+.product-item-head {
+    position: relative;
+    padding: 20px 0;
+    background: rgba(251, 251, 251, 1);
+}
+.product-sale {
+    position: absolute;
+    top: 15px;
+    min-height: 30px;
+    padding: 7px 9px;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+.product-icons {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+.product-name {
+    font-size: 16px;
+    color: rgba(61, 61, 61, 1);
+}
+.product-value {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+.product-price {
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(70, 163, 88, 1);
+}
+
+.product-price-old {
+    font-size: 18px;
+    color: rgba(165, 165, 165, 1);
+    text-decoration: line-through;
+}
+
