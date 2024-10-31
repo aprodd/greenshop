@@ -31,7 +31,10 @@ body {
     display: flex;
     gap: 40px;
 }
-.menu__item a {
+.menu__item> a {
+    display: block;
+    min-width: 50px;
+    text-align: center;
     font-size: 16px;
     text-decoration: none;
     color: rgba(61, 61, 61, 1);
@@ -83,6 +86,8 @@ body {
     position: absolute;
     top: 0;
     left: 185px;
+    margin-top: 40px;
+    padding-top: 0;
     padding-left: 2px;
 }
 .header__btn {
