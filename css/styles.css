@@ -27,38 +27,30 @@ body {
     vertical-align: top;
     margin-top: 8px;
 }
-
 .menu {
     display: flex;
     gap: 40px;
 }
-
 .menu__item a {
     font-size: 16px;
     text-decoration: none;
     color: rgba(61, 61, 61, 1);
 }
-
 .menu__item:nth-child(3) {
     min-width: 80px;
 }
-
 .menu__item:hover {
     font-weight: 700;
     cursor: pointer;
     text-decoration: underline 3px rgba(70, 163, 88, 1);
     text-underline-offset: 28px;
 }
-
 .dropdown {
     position: relative;
 }
-
 .dropdown:hover>.submenu {
     display: block;
-
 }
-
 .submenu {
     display: none;
     position: absolute;
@@ -67,30 +59,25 @@ body {
     left: -50px;
     padding-top: 40px;
 }
-
 .submenu li {
     display: flex;
     justify-content: space-between;
     padding: 8px 15px;
     background: rgba(237, 246, 238, 1);
 }
-
 .submenu a {
     font-weight: 400;
     font-size: 16px;
     text-decoration: none;
     color: rgba(61, 61, 61, 1);
 }
-
 .submenu li:hover {
     background: rgba(26, 113, 42, 1);
 }
-
 .submenu li:hover>a {
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
 }
-
 .submenu li:hover>.submenu {
     display: block;
     position: absolute;
@@ -98,7 +85,6 @@ body {
     left: 185px;
     padding-left: 2px;
 }
-
 .header__btn {
     min-width: 100px;
     padding: 8px 18px;
