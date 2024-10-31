@@ -29,11 +29,11 @@ body {
 }
 .menu {
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 .menu__item> a {
     display: block;
-    min-width: 50px;
+    min-width: 70px;
     text-align: center;
     font-size: 16px;
     text-decoration: none;
