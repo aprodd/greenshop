@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cera Pro';
+    padding-top: 100px;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info_card-wrapper {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(251, 251, 251, 1);
+}
+
+.info_card {
+    max-width: 205px;
+    padding-top: 110px;
+    position: relative;
+}
+
+.one {
+    background: url(../img/bg_1.svg) left top no-repeat;
+}
+
+.two {
+    background: url(../img/bg_2.svg) left top no-repeat;
+}
+
+.three {
+    background: url(../img/bg_3.svg) left top no-repeat;
+}
+
+.info_card_title {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgba(61, 61, 61, 1);
+}
+
+.info_card_subtitle {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(114, 114, 114, 1);
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    margin: 10px 0;
+    width: 1px;
+    min-height: 190px;
+    background: rgba(70, 163, 88, 0.1);
+}
+
+.subscribe {
+    padding-top: 10px;
+}
+
+.subscribe_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(61, 61, 61, 1);
+}
+
+form {
+    margin-top: 25px;
+    display: flex;
+}
+
+input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 0;
+    border:none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(172, 172, 172, 1);
+}
+
+input[type="email"]:focus {
+    border: 1px solid rgba(70, 163, 88, 1);
+    border-right: none;
+}
+
+input[type="submit"] {
+    padding: 0 25px;
+    background: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+input[type="submit"]:hover {
+    background: rgba(26, 113, 42, 1) ;
+}
+input[type="submit"]:active {
+    background: rgba(26, 113, 42, .8);
+}
+
+.subscribe_description {
+    max-width: 350px;
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(114, 114, 114, 1);
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
+}
+
+address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 205px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.contacts a {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(61, 61, 61, 1);
+}
+
+.footer {
+    padding: 30px 155px 30px 25px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+    background: rgba(251, 251, 251, 1);
+}
+
+.footer_menu {
+    min-width: 205px;
+}
+
+.footer_menu-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(61, 61, 61, 1);
+}
+.footer_menu ul {
+    margin-top: 10px;
+}
+.footer_menu li {
+    line-height: 30px;
+}
+.footer_menu a {
+    font-size: 14px;
+    color: rgba(61, 61, 61, 1);
+    text-decoration: none;
+}
+
+.footer_menu a:hover {
+    color: rgba(70, 163, 88, 1);
+    font-weight: 700;
+    
+}
+
+.footer_social-title, .footer_payments-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(61, 61, 61, 1);
+}
+
+.footer_social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social_link:hover path {
+    fill: #07370f;
+}
+.social_link:hover rect {
+    stroke: #07370f;
+}
+
+.footer_payments {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.footer_payments img {
+    margin-top: 15px;
+}
+
+.license {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(61, 61, 61, 1);
+}
+
+
+
+
+
+
