@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cera Pro';
+    padding: 30px 0;
+}
+
+.modal {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 100px;
+    border: 1px solid rgba(70, 163, 88, 0.3);
+    border-bottom: 10px solid rgba(70, 163, 88, 1);
+}
+
+.close {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.close svg {
+    transition: 0.5s;
+}
+
+.close:hover svg {
+    transform: rotate(-180deg);
+}
+
+.close:hover path {
+    fill: rgba(26, 113, 42, 1);
+}
+
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 300;
+}
+
+.option a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+    text-decoration: none;
+}
+
+.option .register {
+    color: rgba(70, 163, 88, 1);
+}
+
+.title {
+    max-width: 300px;
+    margin-top: 40px;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+}
+
+form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    position: relative;
+}
+
+label svg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+input {
+    min-width: 300px;
+    height: 40px;
+    padding: 0 16px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 5px;
+    caret-color: rgba(70, 163, 88, 1);
+}
+
+input:focus {
+    border: 1px solid rgba(70, 163, 88, 1);
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(165, 165, 165, 1);
+    font-family: 'Cera Pro';
+}
+input[type="password"] {
+    padding-right: 40px;
+}
+
+input[type="submit"] {
+    margin-top: 40px;
+    height: 45px;
+    background-color: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Cera Pro';
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none
+}
+
+input[type="submit"]:hover {
+    background-color:rgba(26, 113, 42, 1);
+    box-shadow: rgba(70, 163, 88, 1) 0px 5px 10px 0px;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.text__line {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    background-color: #EAEAEA;
+}
+
+.text__line span {
+    padding: 0 7px;
+    font-size: 13px;
+    color: rgba(61, 61, 61, 1);
+    background: #fff;
+}
+
+.other__login {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.other__login a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(114, 114, 114, 1);
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.other__login a:hover {
+    border: 1px solid rgba(70, 163, 88, 1);
+    color: rgba(70, 163, 88, 1);
+}
+
