@@ -409,9 +409,8 @@ select option {
 }
 
 .products article:hover> .product-item-head .product-icons {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+    opacity: 1;
+    visibility: visible;
 }
 
 .products article:hover>.product-item-head .product-icons:hover {
@@ -442,7 +441,11 @@ select option {
 }
 
 .product-icons {
-    display: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
     left: 25%;
     transition: 0.3s;
