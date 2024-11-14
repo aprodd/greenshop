@@ -462,6 +462,7 @@ select option {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
+    transition: 0.3s;
 }
 
 .icon_btn:hover path {
