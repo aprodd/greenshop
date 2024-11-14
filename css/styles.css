@@ -424,10 +424,6 @@ select option {
     visibility: visible;
 }
 
-.products article:hover>.product-item-head .product-icons:hover {
-    transform: scale(1.05);
-}
-
 .product-item-head {
     position: relative;
     padding: 25px 0;
@@ -466,7 +462,6 @@ select option {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    transition: 0.3s;
 }
 
 .icon_btn:hover path {
